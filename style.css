@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* outline: 1px solid red; */
+}
+
+
+body {
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.9)), url('img/fondo-numeros.jpg');
+    background-size: cover; background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    border: 1px solid #7a2583;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background: transparent; /* Hace que el fondo del elemento sea transparente */
+    backdrop-filter: blur(15px); /* Aplica un desenfoque de 15 píxeles a cualquier contenido detrás del elemento */
+}
+
+
+.content {
+    width: 100%;
+}
+
+
+.btnInteractivos {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.btnJuego {
+    border-radius: 10px;
+    /* background: #4C2585; */
+    background: #83255d;
+    padding: 16px 24px;
+    width: 200px;
+    font-size: 18px;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.btnJuego:disabled {
+    background: #808080;
+}
+
+
+.contentInput {
+    display: flex;
+    justify-content: center;
+}
+.inputNumero {
+    width: 80%;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #FFF;
+    border: none;
+    color: #1875E8;
+    padding: 2rem;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 52px;
+    padding-top: 1rem;
+}
+
+p, button {
+    font-family: 'Inter', sans-serif;
+}
+
+.textoParrafo {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}

@@ -10,7 +10,7 @@ Este es un sencillo juego de adivinar el número, donde el jugador intenta adivi
 6. Solo puedes seleccionar el botón "Nuevo Juego" en un total de 8 veces.
 
 ## Link 🔗 
-[![juego](https://img.shields.io/badge/JS_Game-efd81d?style=for-the-badge&logo=ko-fi&logoColor=black)](https://stevegongoral.github.io/juego-numero-secreto/)
+[![juego](https://img.shields.io/badge/JS_Game-efd81d?style=for-the-badge&logo=ko-fi&logoColor=black)](https://stevegongoral.github.io/Juego-numero-secreto/)
 
 ## Estructura del Código
 El código JavaScript está estructurado de la siguiente manera:

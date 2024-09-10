@@ -1,4 +1,4 @@
-# Juego de Adivinar el Número
+# Adivina el Número Secreto
 Este es un sencillo juego de adivinar el número, donde el jugador intenta adivinar un número secreto generado aleatoriamente entre 1 y un número máximo especificado.
 
 [![juego-numero-secreto](https://img.shields.io/badge/JS_Game-efd81d?style=for-the-badge&logoColor=black)](https://stevegongoral.github.io/Juego-numero-secreto/)
